@@ -6,4 +6,11 @@ header {
     filter: progid: DXImageTransform.Microsoft.gradient(startColorstr="#ff0000", endColorstr="#0000ff", GradientType=1);
     border-radius: 25%;
     border: 5px black solid;
+    text-align: center;
+    padding-top: 1%;
+}
+
+body {
+    font-family: 'Gotham SSM Black', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
 }
