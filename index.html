@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Active Web Fast Select</title>
     <link rel="stylesheet" href="style.css">
+    <script src="iframe.js"></script>
 </head>
 
 <body>
@@ -20,11 +21,13 @@
         <br>
         <div id="iframe">
             <h2>IFrame browsing</h2>
-            <iframe src="nosource.html" frameborder="0"></iframe>
+            <iframe src="nosource.html" frameborder="0" id="iframe"></iframe>
             <br>
             <input type="url" name="input" id="input">
+            <button type="submit" onclick="load()">Load!</button>
         </div>
     </main>
+    <script src="iframe.js"></script>
 </body>
 
 </html>
